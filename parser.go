@@ -9,7 +9,7 @@ import (
 
 // Log represents the parsed iptables log entry.
 type Log struct {
-	Timestamp              string  `json:"timestampUnixMicro"`
+	Timestamp              string  `json:"timestamp"`
 	Hostname               string  `json:"hostname"`
 	KernelTimestamp        float64 `json:"kernelTimestamp"`
 	Prefix                 string  `json:"prefix"`
